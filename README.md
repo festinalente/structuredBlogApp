@@ -1,0 +1,2 @@
+# structuredBlogApp
+Onn my backend(s) I generally use 'contenteditable' on elements rather than a rich text editor. I have tried a few rich text editors but found them wanting, most recentely the beautiful app 'quill.js'. I was very impressed by this tilll the time I had to render the data outside of quill.js, where picking through the post data was difficult because of their 'contraction' philosophy. The app works by producing an array with an object representing a node element and it's content.
