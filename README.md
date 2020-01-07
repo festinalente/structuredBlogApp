@@ -9,6 +9,8 @@ A blog post is stored as an array of objects:
 
 `[{el: 'h1', cont:'Hello'}, {el:'p', cont:'world'}]; `
 
+Once sanitized, this can be popped directly into MongoDB or a JSON field in MySQL.
+
 This can easilly be rendered, here's an example in pug:
 
 ```
